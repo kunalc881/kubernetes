@@ -20,7 +20,7 @@ To create token on master to  join the worker node to master use command
 ```
 copy the created token and paste it to your node you want to connect to your master 
 
-Create CNI (Container Network Interface) plugins between (master and node) using command
+Copy and Run this command on Master to create CNI (Container Network Interface) plugins (between master and node)
 ```
  kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
 ```

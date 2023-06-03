@@ -1,8 +1,7 @@
 # kubernetes
 # TO install Controlplane (Master) on your ubuntu machine from scratch follow the steps 
-Run first script iptables-docker.sh
-edit vi /etc/containerd/config.toml and change disabled_plugins ["ctr"]  to enable_plugins ["containerd"]
-then run second script called master_kubeadm_init.sh
+Run a following script called ubuntu_master-node.sh to install master on your instance
+then create token to join the worker node to master using command
 
 to create token to attach node just run the command
 

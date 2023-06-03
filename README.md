@@ -16,12 +16,7 @@ after that run the following command to create CNI plugins between cluster (mast
 
 # To install node on your ubuntu machine use the following steps
 
-Run scrpit called iptables-docker.sh
-edit vi /etc/containerd/config.toml and change disabled_plugins ["ctr"]  to enable_plugins ["containerd"]
-Run a script called worker-node.sh 
-then 
-create token on your master machine by using command
-
-sudo kubeadm token create --print-join-command
-and run that token to node to connect to master
-
+Run following script called ubuntu_worker-node.sh to install Worker Node 
+```
+sh ubuntu_worker-node.sh
+```

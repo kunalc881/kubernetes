@@ -4,8 +4,9 @@ Run a following script called ubuntu_master-node.sh to install master on your in
 then create token to join the worker node to master using command
 
 to create token to attach node just run the command
-
-sudo kubeadm token create --print-join-command
+```
+ sudo kubeadm token create --print-join-command
+```
 
 
 # To install node on your ubuntu machine use the following steps

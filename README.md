@@ -43,6 +43,7 @@ and run that created token to Nodes which we created on master
 
 # To install k8s cluster on your centos machine follow same process 
 only replace the script 
+
 To install Master Node run script
 ```
 sh centos_master-node.sh

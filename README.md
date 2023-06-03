@@ -7,7 +7,12 @@ to create token to attach node just run the command
 ```
  sudo kubeadm token create --print-join-command
 ```
+copy the token and paste it to your node you want to connect to your master
+after that run the following command to create CNI plugins between cluster (master and node)
 
+```
+ kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
+```
 
 # To install node on your ubuntu machine use the following steps
 

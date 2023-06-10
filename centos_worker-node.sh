@@ -19,7 +19,6 @@ sudo sh get-docker.sh
 systemctl restart docker
 sudo  systemctl restart docker
 sudo systemctl enable docker
-sudo docker ps
 sed -i 's/disabled/enable/' /etc/containerd/config.toml
 sed -i 's/cri/containerd/' /etc/containerd/config.toml   
  sudo systemctl restart docker

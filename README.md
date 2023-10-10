@@ -1,7 +1,7 @@
 # Kubernetes
 # To install 1+1 cluster (One Master with One Node) on your Ubuntu machine using script follow the steps 
 Prerequisites - your machine should have minimum 2core CPU and 4GB RAM
-and swap shouuld be off
+and swap should be off
 
 Download the scripts using command
 ```
